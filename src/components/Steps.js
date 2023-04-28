@@ -6,12 +6,13 @@ export default function Steps() {
   return (
     <div className="p-[24px] rounded-t-2xl dark:bg-[#252D3C] ">
       <div className="flex justify-between">
-        <div>
+        <div className="relative">
           <div className="border-2 rounded-full h-8 w-8 flex items-center justify-center m-auto dark:bg-gray-700 dark:border-none">
             <BiLockAlt className="m-auto" />
           </div>
           <p>Acoount</p>
         </div>
+        {/* <div class="flex-auto border-t-2 transition duration-500 ease-in-out border-teal-600"></div> */}
         <div>
           <div className="border-2 rounded-full h-8 w-8 flex items-center justify-center m-auto dark:bg-gray-700 dark:border-none">
             <RxPerson className="m-auto" />
