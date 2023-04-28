@@ -1,0 +1,10 @@
+.dark-mode {
+    /* Add your dark theme styles here */
+    /* Example: */
+    background-color: #151B28;
+    color: #F9F9F9;
+  }
+input:focus {
+    outline: none; /* Remove the default outline */
+   box-shadow: none; /*Remove the default box shadow */
+   } 
