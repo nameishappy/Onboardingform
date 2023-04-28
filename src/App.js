@@ -1,12 +1,12 @@
 import './App.css';
-import Outer from './components/Outer';
+import Totalform from './components/Totalform';
 import './dark.css';
 
 function App() {
   
   return (
     <div className="App">
-       <Outer/>
+       <Totalform/>
     </div>
   );
 }
